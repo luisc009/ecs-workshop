@@ -1,0 +1,13 @@
+[
+  {
+    "name": "ecs_app",
+    "image": "amazon/amazon-ecs-sample",
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "hostPort": 80
+      }
+    ]
+  }
+]
